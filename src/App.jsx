@@ -46,7 +46,7 @@ setindx(index)
 <NavBar/>
 <Router>
     <Routes>    
-        <Route exact path="/"  element={<Home cont={cont} filteredcont={filteredcont} isloading={isloading} setfilteredcont={setfilteredcont} updateindx={updateindx}/>} />
+        <Route exact path="/Country-api-/"  element={<Home cont={cont} filteredcont={filteredcont} isloading={isloading} setfilteredcont={setfilteredcont} updateindx={updateindx}/>} />
         <Route  path="/country/:id" element={<CountryPage data={cont} indx={indx}/>}/>
     </Routes>
 </Router>
