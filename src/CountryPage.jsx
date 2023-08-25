@@ -26,7 +26,7 @@ const [Country,setcountry]=useState(null)
       <div> 
         {data &&
         <div className="main">
-    <Link classNme='link' to="/"><button className="backbtn"> <img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/back-alt-512.png" /> Back</button></Link>
+    <Link classNme='link' to="/Country-api-/"><button className="backbtn"> <img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/back-alt-512.png" /> Back</button></Link>
      <div className="infocontainer">
         {Country &&<div>    
         <img className='countryimg' src={Country.flags.png}/>
